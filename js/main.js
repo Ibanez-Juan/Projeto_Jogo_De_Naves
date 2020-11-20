@@ -94,7 +94,7 @@ function start() { // Inicio da função start()
             $("#inimigo1").css("left",694);
             $("#inimigo1").css("top",posicaoY);
         }
-    } //Fim da função moveinimigo1()
+    } //Fim da função movimento inimigo1()
 
     function moveinimigo2() {
         posicaoX = parseInt($("#inimigo2").css("left"));
@@ -103,7 +103,7 @@ function start() { // Inicio da função start()
         if (posicaoX<=0) {     
             $("#inimigo2").css("left",775);
         }
-    } // Fim da função moveinimigo2()
+    } // Fim da função movimento inimigo2()
 
     function moveamigo() {
 	
@@ -113,7 +113,7 @@ function start() { // Inicio da função start()
         if (posicaoX>906) {
             $("#amigo").css("left",0);           
         }
-    } // fim da função moveamigo()
+    } // fim da função movimento amigo()
 
     function disparo() {
 	
